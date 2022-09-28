@@ -1,0 +1,39 @@
+{
+  "homeInfo": {
+    "title": "问卷管理",
+    "href": "survey/list"
+  },
+  "logoInfo": {
+    "title": "调查问卷",
+    "image": "",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "问卷管理",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "问卷管理",
+          "href": "survey/list",
+          "icon": "fa fa-window-maximize",
+          "target": "_self"
+        },
+        {
+          "title": "最新问卷",
+          "href": "new",
+          "icon": "fa fa-window-maximize",
+          "target": "_blank"
+        },
+        {
+          "title": "热门问卷",
+          "href": "hot",
+          "icon": "fa fa-window-maximize",
+          "target": "_blank"
+        }
+      ]
+    }
+  ]
+}

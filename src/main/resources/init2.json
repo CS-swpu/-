@@ -1,0 +1,39 @@
+{
+  "homeInfo": {
+    "title": "投票管理",
+    "href": "survey/list"
+  },
+  "logoInfo": {
+    "title": "投票",
+    "image": "",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "投票管理",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "投票管理",
+          "href": "survey/list",
+          "icon": "fa fa-window-maximize",
+          "target": "_self"
+        },
+        {
+          "title": "最新投票",
+          "href": "new",
+          "icon": "fa fa-window-maximize",
+          "target": "_blank"
+        },
+        {
+          "title": "热门投票",
+          "href": "hot",
+          "icon": "fa fa-window-maximize",
+          "target": "_blank"
+        }
+      ]
+    }
+  ]
+}
